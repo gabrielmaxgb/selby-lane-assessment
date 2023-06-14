@@ -12,7 +12,7 @@ const Header = ({ currentStep }: IHeaderProps) => {
       <Container backgroundColor={theme.customThemeColors.blue} p={'0.5rem'}>
         <img id="liwa-logo" src={liwaLogo} alt="Liwa logo" />
       </Container>
-      <Stepper currentStep={currentStep} />
+      <Stepper currentStep={currentStep} maxSteps={3} />
     </>
   );
 };

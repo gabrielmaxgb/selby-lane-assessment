@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
+import { arrayFromNumber } from '../../../utils/arrayFromNumber';
 import { StepperContainer } from './StepperStyled';
 import { IStepperProps } from './types';
 
-const Stepper = ({ currentStep }: IStepperProps) => {
+const Stepper = ({ currentStep, maxSteps }: IStepperProps) => {
   const [localStep, setLocalStep] = useState(currentStep);
 
   useEffect(() => {
@@ -11,8 +12,8 @@ const Stepper = ({ currentStep }: IStepperProps) => {
 
   return (
     <StepperContainer>
-      {[1, 2, 3].map((step) => {
-        return <div className={`step ${step <= localStep && 'filled'}`} />;
+      {arrayFromNumber(maxSteps).map((step) => {
+        return <span key={step} className={`step ${step <= localStep && 'filled'}`} />;
       })}
     </StepperContainer>
   );
