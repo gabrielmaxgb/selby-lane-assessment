@@ -1,23 +1,21 @@
-import { useEffect } from 'react';
-import { Outlet, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Outlet, useNavigate } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import { SignupContainer } from './SignUpStyled';
 
 const SignUp = () => {
-  const location = useLocation();
   const navigate = useNavigate();
+  const [currentStep, setCurrentStep] = useState(1);
 
   useEffect(() => {
-    if (location.pathname === '/signup') {
-      navigate('/signup/1');
-    }
-  }, [location.pathname, navigate]);
+    navigate(`/signup/${currentStep}`);
+  }, [navigate, currentStep]);
 
   return (
     <SignupContainer>
-      <Header location={location} />
+      <Header currentStep={currentStep} />
       <main id="outlet">
-        <Outlet />
+        <Outlet context={{ currentStep, setCurrentStep }} />
       </main>
     </SignupContainer>
   );

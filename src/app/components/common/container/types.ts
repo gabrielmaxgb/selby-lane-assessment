@@ -5,5 +5,3 @@ export interface IContainerProps extends IChildren, ICustomizableComponent {}
 
 // Styling
 export type IContainerStyled = ICustomizableComponent;
-
-// export type IContainerProps = IChildren;

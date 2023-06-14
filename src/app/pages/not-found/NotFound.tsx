@@ -1,5 +1,12 @@
+import { Typography } from '@mui/material';
+import { NotFoundContainer } from './NotFoundStyled';
+
 const NotFound = () => {
-  return <div>NotFound</div>;
+  return (
+    <NotFoundContainer>
+      <Typography>Nothing here...</Typography>
+    </NotFoundContainer>
+  );
 };
 
 export default NotFound;
