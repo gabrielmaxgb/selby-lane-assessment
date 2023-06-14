@@ -14,6 +14,6 @@ export const StepperContainer = styled.div<IStepperContainer>`
   }
 
   .filled {
-    background-color: ${(props) => props.theme.customThemeColors?.yellow};
+    background-color: ${(props) => props.theme.customThemeColors?.primary};
   }
 `;

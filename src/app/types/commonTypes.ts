@@ -1,4 +1,4 @@
-import { ThemeOptions } from '@mui/material';
+import { ThemeOptions } from "@mui/material";
 
 export interface IChildren {
   children: JSX.Element[] | JSX.Element;

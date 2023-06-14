@@ -5,6 +5,11 @@ export const SignupContainer = styled.main`
   --header-height: ${HEADER_HEIGHT};
 
   #outlet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: calc(100vh - var(--header-height));
+    overflow-y: auto;
   }
 `;
