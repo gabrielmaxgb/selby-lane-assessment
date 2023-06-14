@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { IStepperContainer } from './types';
+import styled from "@emotion/styled";
+import { IStepperContainer } from "./types";
 
 export const StepperContainer = styled.div<IStepperContainer>`
   display: flex;

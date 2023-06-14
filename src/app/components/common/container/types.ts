@@ -1,4 +1,4 @@
-import { IChildren, ICustomizableComponent } from '../../../types/commonTypes';
+import { IChildren, ICustomizableComponent } from "../../../types/commonTypes";
 
 // Component
 export interface IContainerProps extends IChildren, ICustomizableComponent {}

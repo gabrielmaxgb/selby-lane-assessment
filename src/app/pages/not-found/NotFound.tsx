@@ -1,5 +1,5 @@
-import { Typography } from '@mui/material';
-import { NotFoundContainer } from './NotFoundStyled';
+import { Typography } from "@mui/material";
+import { NotFoundContainer } from "./NotFoundStyled";
 
 const NotFound = () => {
   return (

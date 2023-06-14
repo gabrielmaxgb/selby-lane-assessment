@@ -1,4 +1,4 @@
-import { ITheme } from '../../types/commonTypes';
+import { ITheme } from "../../types/commonTypes";
 
 // Component
 export interface IStepperProps {
