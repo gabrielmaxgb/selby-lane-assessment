@@ -8,4 +8,9 @@ export const CustomButton = styled(Button)<ICustomButton>`
   text-transform: none;
   border-radius: 24px;
   padding: 0.2rem 1rem;
+
+  :hover {
+    background-color: ${(props) => props.theme.customThemeColors?.primary};
+    color: ${(props) => props.theme.customThemeColors?.secondary};
+  }
 `;
