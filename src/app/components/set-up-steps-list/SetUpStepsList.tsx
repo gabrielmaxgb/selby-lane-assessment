@@ -9,8 +9,6 @@ import { ISetUpStepsListItem } from "./types";
 const SetUpStepsList = () => {
   const { currentStep, setCurrentStep } = useSteps();
 
-  console.log(currentStep);
-
   const renderListItem = useCallback(() => {
     return SET_UP_STEPS_LIST.map((listItem: ISetUpStepsListItem) => {
       return <ListItem key={listItem.item} itemData={listItem} />;
