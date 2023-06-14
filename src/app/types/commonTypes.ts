@@ -8,6 +8,7 @@ export interface ICustomizableComponent {
   backgroundColor?: string;
   p?: string;
   height?: string;
+  color?: string;
 }
 
 export interface ITheme {
