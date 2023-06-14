@@ -14,7 +14,7 @@ const SignUp = () => {
 
   return (
     <>
-      <Header />
+      <Header location={location} />
       <Outlet />
     </>
   );

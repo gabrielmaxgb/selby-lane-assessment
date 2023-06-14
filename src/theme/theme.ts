@@ -2,29 +2,29 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 declare module '@mui/material/styles' {
   export interface Theme {
-    extraColors: {
+    customThemeColors: {
       white: string;
       black: string;
-      yellow?: string;
+      blue?: string;
       emphasis?: string;
     };
   }
   // allow configuration using `createTheme`
   export interface ThemeOptions {
-    extraColors?: {
+    customThemeColors?: {
       white?: string;
       black?: string;
-      yellow?: string;
+      blue?: string;
       emphasis?: string;
     };
   }
 }
 
 const themeCreator = createTheme({
-  extraColors: {
+  customThemeColors: {
     // white: '#ffffff',
     // black: '#000000',
-    // yellow: '#cbac64',
+    blue: '#0C3458'
     // emphasis: '#000000'
   }
 });
