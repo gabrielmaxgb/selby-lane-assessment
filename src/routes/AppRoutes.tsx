@@ -2,7 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import NotFound from '../app/pages/not-found/NotFound';
 import SignUp from '../app/pages/sign-up/SignUp';
 import DataInput from '../app/pages/sign-up/sign-up-steps/data-input/DataInput';
-import StepsDescription from '../app/pages/sign-up/sign-up-steps/steps-descriotion/StepsDescription';
+import StepsDescription from '../app/pages/sign-up/sign-up-steps/steps-description/StepsDescription';
 import Welcome from '../app/pages/sign-up/sign-up-steps/welcome/Welcome';
 
 const AppRoutes = () => {

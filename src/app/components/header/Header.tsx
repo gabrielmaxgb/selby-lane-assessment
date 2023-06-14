@@ -6,8 +6,6 @@ import { IHeaderProps } from './types';
 const Header = ({ location }: IHeaderProps) => {
   const theme = useTheme();
 
-  console.log('location from header', location);
-
   return (
     <Container backgroundColor={theme.customThemeColors.blue} p={'0.5rem'}>
       <img id="liwa-logo" src={liwaLogo} alt="Liwa logo" />

@@ -5,4 +5,5 @@ export interface IChildren {
 export interface ICustomizableComponent {
   backgroundColor?: string;
   p?: string;
+  height?: string;
 }

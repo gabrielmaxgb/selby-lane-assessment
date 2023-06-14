@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import Header from '../../components/header/Header';
+import { SignupContainer } from './SignUpStyled';
 
 const SignUp = () => {
   const location = useLocation();
@@ -13,10 +14,12 @@ const SignUp = () => {
   }, [location.pathname, navigate]);
 
   return (
-    <>
+    <SignupContainer>
       <Header location={location} />
-      <Outlet />
-    </>
+      <main id="outlet">
+        <Outlet />
+      </main>
+    </SignupContainer>
   );
 };
 
