@@ -1,5 +1,5 @@
 import { useTheme } from '@mui/material';
-import liwaLogo from '../../assets/imgs/liwa-logo.png';
+import liwaLogo from '../../../assets/imgs/liwa-logo-dark.png';
 import Container from '../common/container/Container';
 import Stepper from '../stepper/Stepper';
 import { IHeaderProps } from './types';
