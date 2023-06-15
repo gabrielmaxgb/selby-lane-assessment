@@ -18,7 +18,7 @@ To get started with this project, please follow these steps:
 
 1.  Clone the repository to your local machine using the following command:
 
-    `https://github.com/gabrielmaxgb/selby-lane-assessment.git`
+    `git clone https://github.com/gabrielmaxgb/selby-lane-assessment.git`
 
 2.  Navigate to the project directory:
 
