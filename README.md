@@ -2,11 +2,11 @@ Selby line assessment - Registration flow
 ========================================
 
 
-https://github.com/gabrielmaxgb/selby-lane-assessment/assets/38226225/09ab7607-e176-440d-962b-bb167ca8f151
+https://github.com/gabrielmaxgb/selby-lane-assessment/assets/38226225/7b98d6cb-ca93-4eaf-ae70-e758e2c66301
 
 
 
-https://github.com/gabrielmaxgb/selby-lane-assessment/assets/38226225/c3ac4558-d09a-460f-af77-f250ffc7ad84
+https://github.com/gabrielmaxgb/selby-lane-assessment/assets/38226225/962862e2-01bd-4258-ae78-b8a6149ec1ab
 
 
 This is a React Vite project that reproduces a mockup of 3 sequential screens from a registration flow
