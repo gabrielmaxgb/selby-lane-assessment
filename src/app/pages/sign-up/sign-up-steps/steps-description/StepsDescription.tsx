@@ -1,5 +1,5 @@
 import { Grid, Typography, useMediaQuery, useTheme } from "@mui/material";
-import imagePlaceholder from "../../../../../assets/icons/image-placeholder.svg";
+import imagePlaceholder from "../../../../../assets/imgs/image-placeholder.png";
 import SetUpStepsList from "../../../../components/set-up-steps-list/SetUpStepsList";
 import { StepsDescriptionContainer } from "./StepsDescriptionStyled";
 
@@ -24,7 +24,7 @@ const StepsDescription = () => {
           fontWeight={600}
           color={theme.customThemeColors.blue}
           mb={"1rem"}
-          mt={xs ? "5rem" : ""}
+          mt={xs ? "8rem" : ""}
         >
           Let's get you set up!
         </Typography>
@@ -45,7 +45,7 @@ const StepsDescription = () => {
               id="image-placeholder"
               src={imagePlaceholder}
               alt="Image placeholder"
-              width={"200px"}
+              width={"250px"}
             />
           </Grid>
         </Grid>
