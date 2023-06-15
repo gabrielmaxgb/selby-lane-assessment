@@ -1,5 +1,6 @@
 import { Grid, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
+import ConfettiExplosion from "react-confetti-explosion";
 import { useNavigate } from "react-router-dom";
 import liwaLogoDark from "../../../../../assets/imgs/liwa-logo-dark.png";
 import { CustomButton } from "../../../../components/common/custom";
@@ -20,6 +21,7 @@ const Welcome = () => {
       justifyContent={"center"}
       flexDirection={"column"}
     >
+      <ConfettiExplosion />
       <img id="liwa-logo-dark" src={liwaLogoDark} alt="Liwa logo" />
       <Typography
         variant="h5"
