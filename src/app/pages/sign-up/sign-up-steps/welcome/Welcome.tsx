@@ -47,11 +47,7 @@ const Welcome = () => {
         We're excited to embark on this journey together.
       </Typography>
       <CustomButton
-        onClick={() =>
-          navigate(
-            `/dashboard/${userContext?.user.firstName} ${userContext?.user.lastName}`
-          )
-        }
+        onClick={() => navigate(`/dashboard/${userContext?.user.firstName}`)}
       >
         View your dashboard
       </CustomButton>
