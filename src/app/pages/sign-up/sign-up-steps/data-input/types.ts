@@ -1,3 +1,11 @@
 import { ITheme } from "../../../../types/commonTypes";
 
-export type IDataInputContainer = ITheme;
+export interface IDataInputContainer extends ITheme {
+  extraSmallScreen: boolean;
+  mediumScreenSize: boolean;
+}
+
+export type Inputs = {
+  firstName: string;
+  lastName: string;
+};
