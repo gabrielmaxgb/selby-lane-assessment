@@ -115,7 +115,13 @@ const DataInput = () => {
               </div>
               <div id="action-area">
                 {xs ? null : (
-                  <Typography variant="caption">Press Enter</Typography>
+                  <Typography
+                    variant="caption"
+                    color={theme.customThemeColors.gray}
+                    fontWeight={600}
+                  >
+                    Press Enter
+                  </Typography>
                 )}
                 <Button type="submit" variant="text">
                   {fakeRequest ? (

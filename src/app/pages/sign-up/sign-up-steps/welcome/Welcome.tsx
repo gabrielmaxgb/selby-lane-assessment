@@ -27,7 +27,7 @@ const Welcome = () => {
         variant="h5"
         fontWeight={600}
         color={theme.customThemeColors.blue}
-        m={"1rem 0"}
+        m={"1rem 0 0 0"}
       >
         Congratulations.
       </Typography>
@@ -35,7 +35,7 @@ const Welcome = () => {
         variant="h5"
         fontWeight={600}
         color={theme.customThemeColors.blue}
-        m={"1rem 0"}
+        m={"0 0 0.5rem 0"}
         textAlign={"center"}
       >
         Welcome to Liwa Capital Advisors.

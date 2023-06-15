@@ -6,6 +6,7 @@ declare module "@mui/material/styles" {
     customThemeColors: {
       blue?: string;
       lightBlue?: string;
+      gray?: string;
       lighGray: string;
       white?: string;
       primary?: string;
@@ -25,6 +26,7 @@ declare module "@mui/material/styles" {
     customThemeColors?: {
       blue?: string;
       lightBlue?: string;
+      gray?: string;
       lighGray: string;
       white?: string;
       primary?: string;
@@ -45,6 +47,7 @@ const themeCreator = createTheme({
   customThemeColors: {
     blue: "#0C3458",
     lightBlue: "#1F3251",
+    gray: "#6D6D6D",
     lighGray: "#BAC0CC",
     white: "#ffffff",
     primary: "#CA8A4B",
