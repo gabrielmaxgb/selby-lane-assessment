@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { useSteps } from "../../hooks/outlet/useSteps";
+import { useSteps } from "../../context/outlet/useSteps";
 import { CustomButton } from "../common/custom";
 import { SetUpStepsListContainer } from "./SetUpStepsListStyled";
 import { SET_UP_STEPS_LIST } from "./consts";

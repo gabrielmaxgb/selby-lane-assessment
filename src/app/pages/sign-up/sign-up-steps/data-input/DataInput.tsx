@@ -11,9 +11,9 @@ import {
 } from "@mui/material";
 import { useContext, useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
+import { useSteps } from "../../../../context/outlet/useSteps";
 import { UserContextType } from "../../../../context/user/types";
 import { UserContext } from "../../../../context/user/userContext";
-import { useSteps } from "../../../../hooks/outlet/useSteps";
 import { DataInputContainer } from "./DataInputStyled";
 import { Inputs } from "./types";
 
