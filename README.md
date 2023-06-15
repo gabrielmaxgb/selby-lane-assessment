@@ -24,7 +24,7 @@ To get started with this project, please follow these steps:
 
     `cd selby-lane-assessment`
 
-3.  Install the dependencies using npm or Yarn:
+3.  Install the dependencies using npm:
 
     `npm install`
 
