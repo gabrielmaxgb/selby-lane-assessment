@@ -1,5 +1,5 @@
 import { useTheme } from "@mui/material";
-import liwaLogo from "../../../assets/imgs/liwa-logo-dark.png";
+import liwaLogoDark from "../../../assets/imgs/liwa-logo-dark.png";
 import Container from "../common/container/Container";
 import Stepper from "../stepper/Stepper";
 import { IHeaderProps } from "./types";
@@ -10,7 +10,7 @@ const Header = ({ currentStep }: IHeaderProps) => {
   return (
     <>
       <Container backgroundColor={theme.customThemeColors.blue} p={"0.5rem"}>
-        <img id="liwa-logo" src={liwaLogo} alt="Liwa logo" />
+        <img id="liwa-logo-dark" src={liwaLogoDark} alt="Liwa logo" />
       </Container>
       <Stepper currentStep={currentStep} maxSteps={3} />
     </>
